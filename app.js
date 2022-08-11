@@ -1,10 +1,20 @@
 // ternary operators
 
-let subscribed = true
-let loggedIn = true
+// let cash = 40
+// let price = 40
+// let isStoreOpen = true 
 
-let str = subscribed && loggedIn ? 'show the video' : 'hide the video'
-console.log(str);
+// let str = cash >= price && isStoreOpen ? 'give receipt' : 'dont give receipt'
+// console.log(str);
+
+
+
+// ^
+// let subscribed = true
+// let loggedIn = true
+
+// let str = subscribed && loggedIn ? 'show the video' : 'hide the video'
+// console.log(str);
 
 
 // ^
