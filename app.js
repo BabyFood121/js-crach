@@ -1,3 +1,57 @@
+
+
+
+
+
+
+// -- FUNCTIONS--- 
+
+// const convertCelciusToFahrenehit = (celcius) => {
+//     return celcius * 1.8 + 32
+// }
+
+// console.log(convertCelciusToFahrenehit(0));
+
+
+
+
+
+// function convertCelciusToFahrenehit(celcius) {
+//     return celcius * 1.8 + 32
+// }
+
+// console.log(convertCelciusToFahrenehit(5));
+// console.log(convertCelciusToFahrenehit(18));
+
+
+
+
+// function sumOfTwoNumbers(num1, num2) {
+//     return num1 + num2
+// }
+
+// console.log(sumOfTwoNumbers(10, 10));
+
+
+
+
+
+// function definition
+// function welcomPersonToFES (FirstName, LastName) {
+// console.log(`welcome to FES, ${FirstName} ${LastName}`)
+// }
+// 
+// call the function
+// welcomPersonToFES('Alex', 'Nicholas');
+// welcomPersonToFES('joe', 'shmoe');
+
+
+
+
+
+
+
+
 // LOOPS
 
 // for (let i = 1; i <= 20; i++) {
@@ -16,11 +70,11 @@
 // }
 
 
-const str = "Frontend Simplified"
+// const str = "Frontend Simplified"
 
-for (let i = 0; i < str.length; ++i){
-    console.log(str[i])
-}
+// for (let i = 0; i < str.length; ++i){
+//     console.log(str[i])
+// }
 
 
 
