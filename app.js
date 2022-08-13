@@ -1,3 +1,65 @@
+// LOOPS
+
+// for (let i = 1; i <= 20; i++) {
+//     if (i % 3 === 0) {
+//         console.log(`${i} -> frontend`)
+//     }
+//     else if (i % 5 === 0) {
+//         console.log(`${i} -> Simplified`)
+//     }
+//     else if (i % 3 === 0 && i % 5 == 0) {
+//         console.log(`${i} -> Frontend Simplified`)
+//     }
+//     else {
+//         console.log(`${i} -> ${i}`)
+//     }
+// }
+
+
+const str = "Frontend Simplified"
+
+for (let i = 0; i < str.length; ++i){
+    console.log(str[i])
+}
+
+
+
+
+
+// DRY = Don't repeat youself
+
+// let count = 1;
+
+// while (count <= 100) {
+//     console.log(count)
+//     count = count + 1
+// }
+
+
+// for (let i = 0; i < 100; i++) {
+//     console.log(i + 1);
+// }
+
+
+//    'i' less than how many times we wan tto loop
+//                   ^                  
+//for (let i = 0; i < 100; i++) {
+ //        ^                ^
+//    set 'i' to 0     increment 'i' by 1
+//     console.log(i)
+
+
+// }
+
+
+
+
+
+
+
+
+
+
 // ternary operators
 
 // let cash = 40
