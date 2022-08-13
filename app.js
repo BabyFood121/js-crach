@@ -1,5 +1,110 @@
+// --- ARRAYS ---
 
 
+// let dollars = [1, 5, 10, 3]
+
+// // create new 'cents' array
+// let cents = []
+// // loop over every element in 'dollars'
+
+// for (let i = 0; i < dollars.length; ++i) {
+//     cents.push(dollars[i] * 100);
+// }
+// // multiply th element by 100
+// //  add this element onto the cents
+
+// // console log cents
+// console.log(cents)
+
+
+
+
+
+
+
+// let dollar = [1, 5, 10, 3]
+
+// let cents = dollar.map(element => element * 100)
+
+// console.log(cents)
+
+
+
+
+// let dollar = [1, 5, 10, 3]
+
+// let cents = dollar.map(element => {
+//     return element * 100
+// })
+
+// console.log(cents)
+
+
+
+
+
+// let arr = [1, 5, 10, 3]
+
+// let newArray = arr.map(element => 'dog')
+
+// console.log(newArray)
+
+
+
+// let arr = [1, 4, 9, 16]
+
+// let newArray = arr.map((element) => {
+//     console.log(element)
+//     return 'dog'
+// })
+
+// console.log(newArray)
+
+
+
+
+
+
+
+// let grades = ['A+', 'A', 'FAIL']
+
+// let goodGrades = []
+
+// for (let i = 0; i < grades.length; ++i) {
+//     if (grades[i] !== 'FAIL') {
+//         goodGrades.push(grades[i]);
+//     }
+// }
+
+// console.log(goodGrades);
+
+
+
+
+
+// let grades = ['A+', 'A', 'FAIL']
+
+// let goodGrades = grades.filter(element => element !== 'FAIL')
+
+// console.log(goodGrades)
+
+
+
+
+// let arr =[20, 30, 40, 50, 100]
+
+// // [20, 30, 40,]
+// let newArr = arr.filter(element => {
+//     console.log(element) 
+//     if (element < 50) {
+//         return true;
+//     }
+// })
+
+// // the same thing ^
+// //  let newArr = arr.filter(element => element < 50)
+
+// console.log(newArr)
 
 
 
