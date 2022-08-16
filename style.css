@@ -1,0 +1,11 @@
+* {
+    transition: all 300ms ease;
+}
+
+.black{
+    background-color: black;
+}
+
+.black * {
+    color: white;
+}

@@ -1,6 +1,34 @@
 // --------DOM--------
+// (document Object Model)
+
+// how to change CSS 
+// document.querySelector(".title").style.fontSize = '20px'
 
 
+// // how to target iner html
+// document.querySelector('.title').innerHTML = 'hello seggsy'
+
+// function changeTitletoRed() {
+//     document.querySelector('.title').style.color = 'red'
+//     console.log('clicked');
+// }
+
+
+
+
+// function toggleDarkMode() {
+//     document.querySelector('body').classList.toggle('black')
+// }
+
+
+
+
+// the first way to access an element (common)
+// console.log(document.querySelector('#title'));
+
+
+// the second way of accessing an element(only works with an eement that has an id)
+// console.log(document.getElementById('title'));
 
 
 
