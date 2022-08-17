@@ -1,3 +1,90 @@
+// begginer challenges
+
+// function addition(num1, num2){
+//     return num1 + num2
+// }
+// console.log(addition(3, 5));
+// // -------------------------------------
+// function hourToSec(num1){
+//     return num1 * 3600
+// }
+// console.log(hourToSec(2))
+// // -----------------------------------
+// function calPerimeter(length, width){
+//     return 2 * (length + width);
+// }
+// console.log(calPerimeter(10,20))
+// // ------------------------------------
+// function calTriangleArea (base, height){
+//     return 0.5 * base * height;
+// }
+// console.log(calTriangleArea(10, 4))
+// -------------------------------------
+// function endfrontend (word){
+//     return word + 'frontend'
+// }
+// console.log(endfrontend('apple'));
+// // -------------------------------------
+// function sumGreaterThan100 (num1, num2){
+//     return num1 + num2 >= 100 
+// }
+// console.log(sumGreaterThan100(50,54));
+// // ------------------------------------
+// function lessOrEqualToZero (num){
+//     return num <= 0
+// }
+// console.log(lessOrEqualToZero(-1))
+// // -----------------------------------
+// function oppositeboolean(bool){
+//     return !bool
+// }
+// console.log(oppositeboolean(true))
+// // ----------------------------------
+// function isNot0(num){
+//     return num !== 0
+// }
+// console.log(isNot0(1))
+// // ---------------------------------
+// function calcRemainder (num1, num2){
+//     return num1 % num2
+// }
+// console.log(calcRemainder(3,6));
+// // ------------------------------------
+// function isOdd (num){
+//     return num % 2 == 1
+// }
+// console.log(isOdd(3))
+// // -----------------------------------
+// function booleanInteger (num){
+//     return num % 2 === 0 ? 1 : -1
+// }
+// console.log(booleanInteger(3))
+// // even number return as 1, odd returns as -1 
+// // -------------------------------------
+// function isLoogedinAndSubscried (loggin, subscribed){
+//     if (loggin === 'LOGGED_IN' || subscribed === 'SUBSCRIBED') {
+//         return true
+//     }
+//     return false
+// }
+// console.log(isLoogedinAndSubscried('LOGGED_IN','SUBSCRIBED'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // --------DOM--------
 // (document Object Model)
 
