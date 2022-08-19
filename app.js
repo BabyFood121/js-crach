@@ -1,3 +1,191 @@
+// // medium questions
+// function falsyOrTruthy(elem1, elem2){
+//         return !elem1 ? elem1 : elem2
+// }
+// console.log(falsyOrTruthy(3,45))
+// // if the first element is true it will cosnole.log the second element
+// // -----------------------------
+// function arrLength(arr){
+//     return arr.length;
+// }
+// console.log(arrLength([1, 2, 3, 4]));
+// // to get the length of the array
+// // --------------------------------
+// function lastElem(arr){
+//     return arr[arr.length - 1];
+// }
+// console.log(lastElem([0, 1, 2, 3]));
+// // to get the last element of an array
+// // ----------------------------------
+// function arraySum(arr){
+//     let sum = 0
+//     for (let i = 0; i < arr.length; ++i){
+//         // this is how you loop through every element in an array
+//         sum = sum + arr[i]
+//     }
+//     return sum
+// }
+// console.log(arraySum([1, 2, 3, 4, 5, 6]))
+// // adding everythign is the array
+// // when you want every index in an array use a for loop
+// // -----------------------------------------
+// function prgressiveSum(num){
+//     let sum = 0
+//     for (let i = 1; i <= num; ++i) {
+//         sum = sum + i
+//     }
+//     return sum
+// }
+// console.log(prgressiveSum(4))
+// // add all elements  in an array together
+// // -----------------------------------------
+// function calcTime(seconds) {
+//     let timerMinutes = Math.floor(seconds / 60)
+//     let timerSeconds = seconds % 60;
+
+//     if( timerMinutes.toString().length === 1 ){
+//         let timerMinutes = '0' + timerMinutes
+//     }
+
+//     return timerMinutes + ':' + timerSeconds
+// }
+// console.log(calcTime(1015));
+// // // convert this to a sting, (converting a time into mm:ss)
+// // // -----------------------------------------
+// function getMax(arr) {
+//     let max = arr[0]
+//     for (let i = 1; i < arr.length; ++i) {
+//         if (arr[i] > max) {
+//             max = arr[i];
+//         }
+//     }
+//     return max
+// }
+// console.log(getMax([-100, 40, -300]));
+// // // highest number in an array
+// // // ---------------------------------------------
+// // common loop/reverse loop method
+// function reverseString(str) {
+//     let reversedString = '';
+//     for (let i = 0; i < str.length; ++i){
+//      //this is how to loop every character in a string
+//       reversedString =  reversedString +str[i];
+//     }
+//     return reversedString;
+// }
+// console.log(reverseString('32das'))
+// // reverse the order of elements in a string
+// // ------------------------------------------
+// // decremental for loop
+// function reverseString(str){
+//     for (let i = str.length - 1; i >= 0; --i) {
+//         reversedString += str[i]
+//     }
+//     return reversedString;
+// }
+// console.log(reverseString('abc'))
+// // --------------------------'str'.split('elem').reversed().join('')
+// // string to array = .split
+// // array to string = .join
+// // only use .reverse on an array 
+// // -----------------------------------------------
+// // array reverse property
+// // shortest reverse property
+// function reverseString(str) {
+//     return str.split('').reverse().join('')
+// }
+// console.log(reverseString('hello'))
+// // ------------------------------------------------
+// // convert elements in an array to 0
+// // for loop example
+// function convertToZero(arr){
+//     let newArr = [];
+//     for (let i = 0; i < arr.length; ++i){
+//         newArr[i] = 0
+//     }
+//     return newArr
+// }
+// console.log(convertToZero([1, 2, 3, 4, 5, 6]))
+// // -----------------------------------------------
+// // convert elements in an array to 0
+// // array fill method
+// function convertToZeroFill(arr){
+//     return new Array(arr.length).fill(0);
+// }   
+// console.log(convertToZeroFill([1, 2, 3, 4,]))
+// // ---------------------------------------------
+// // convert elements in an array to 0
+// // array map method (SUPER IMPORTANT)
+// // map lets you map over every element in an array
+// // [1, 2, 3].map(elem => elem * 2)
+// // map has 3 parts
+// // the current element, arrow and the conversion
+// // map will convert everything on the array to the right of 
+// function convertToZeroMap(arr){
+//    return arr.map(elem => 0)
+// }   
+// console.log(convertToZeroMap([1, 2, 3, 4,]))
+// // ----------------------------------------------------
+// // remove the word apple from an array
+// function removeApples(arr){
+//     let noApples = []
+//     // this creates an empty array to push where the apple is
+//     for (i = 0; i < arr.length; ++i){
+//        if(arr[i] !== 'apple') {
+//         noApples.push(arr[i]);
+//         // in an if statement it will not be equal to apple so we check  to then
+//         // pushg the new empty array where apple is
+//        }
+//     }
+//     return noApples
+//     // return the noApple array so that its active
+//  }   
+//  console.log(removeApples(['orange', 'apple', 'pepper']))
+//  // // -------------------------------------
+// // remove apple from an array with filter method
+// // whenever you need to filter anything always go to the array. filter property
+// function removeApplesFilter(arr){
+//     return arr.filter(elem => elem !== 'apple')
+//     // goes through the array checks if its not equal to apple, then gets rid of it
+//  }   
+//  console.log(removeApplesFilter(['orange', 'apple', 'pepper']))
+
+
+// //  ex. [1, ,2 ,3].filter(elem => elem === 3)
+// // this goes through the array, and then filters the element to the right of arrow
+// // ------------------------------------------------------
+// // filter out falsy values
+// // filter method
+// function filterOutFalsy(arr) {
+//     return arr.filter(elem => !!elem === true)
+// }
+// console.log(filterOutFalsy(['spongebob', 0, undefined, 'squidward']))
+
+// // for loop way\/
+// function filterOutFalsyLoop(arr){
+//     let truthyvalue = []
+//     for (i = 0; i < arr.length; ++i) {
+//         if (!!arr[i] === true) {
+//             truthyvalue.push(arr[i])
+//         }
+//     }
+//     return truthyvalue
+// }
+// console.log(filterOutFalsyLoop(['hello', 0, undefined, NaN, 'orange']))
+// ------------------------------------------------------------
+// thruthy stuff named truthy, fasy stuff named false
+// when convertying anything use the .map method
+// function convertToBoolean(arr){
+//     return arr.map(elem => !!elem)
+// }
+// console.log(convertToBoolean(['hey', 0, undefined, '', true, 'im black']))
+
+
+
+
+
+
+
 // begginer challenges
 
 // function addition(num1, num2){
