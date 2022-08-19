@@ -1,4 +1,61 @@
+// hard challenges
+// making stars and half a star based off numbers
+// function showRating(rating) {
+//     let ratings = "";
+//     for (let i = 0; i < Math.floor(rating); ++i){
+//             ratings += "*"
+//           if (i !== Math.floor(rating) - 1) {
+//               ratings = ratings + " "
+//           } 
+//     }
+//     if (!Number.isInteger(rating)) {
+//        ratings += " .";
+//     }
+//     return ratings;
+// }
+// console.log(showRating(4.5));
 
+
+// function convertToStar(rating) {
+//     let ratings = "";
+//     // empty canvas to replace number
+//     for (let i = 0; i < Math.floor(rating); ++i) {
+//         // makes it so [i] will be rounded down to a whole number
+//         ratings += '* '
+//         // when it is down to a whole number it
+//         if (i !== Math.floor(rating) - 1) {
+//             ratings += " "
+//             // this makes it so when its not a number there is a space in-between
+//         }
+//     }
+//     if (!Number.isInteger(ratings)) {
+//         ratings += " ."
+//         // when there is a decimal it will print little dot
+//     }
+//     return ratings
+// }
+// console.log(convertToStar(4.5));
+// // -------------------------------------------------
+// function sotLowToHigh(numbers){
+//     return numbers.sort((a, b) => a - b);
+//     // sort does it alphebetically, but numerically do this ^
+// }
+// console.log(sotLowToHigh([1, 5, 0, 10, 3, 4]))
+// -----------------------------------------------
+function SortPriceHighToLow(numbers){
+    return numbers.sort((a, b) => {
+        // sorts the numbers
+    return b.price - a.price
+    // looks at the second numebr with the class and compares them
+    });
+
+}
+console.log(SortPriceHighToLow([
+    {id : 5, price: 50},
+    {id : 3, price: 20},
+    {id : 6, price: 100}
+])
+);
 
 
 
